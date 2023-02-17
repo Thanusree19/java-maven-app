@@ -22,8 +22,10 @@ pipeline {
 				sh './scripts/deliver.sh'
 			}
 		
+		
 		}
 	}
 }
+
      
 
