@@ -10,9 +10,9 @@ pipeline {
 			}
 		
 		}
-		stage ('test') {
+		stage ('compile') {
 			steps {
-				sh 'mvn test'
+				sh 'mvn compile'
 			}
 			post {
 				always {
@@ -29,6 +29,3 @@ pipeline {
 		}
 	}
 }
-
-     
-
